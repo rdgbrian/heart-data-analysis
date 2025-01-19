@@ -28,13 +28,52 @@ Key features for heart disease prediction:
 - High accuracy across all models.
 - Receiver Operating Characteristic (ROC) curves showed superior threshold performance for the pruned model.
 
+Here’s the updated **Getting Started** section of your README with clear instructions:
+
 ## Getting Started
 
 ### Prerequisites
-(To be completed: This section will include details about dependencies, installation steps, and dataset preparation.)
+Before you begin, ensure that you have the following installed on your system:
+- Python (version 3.7 or higher is recommended). We suggest using [Anaconda](https://www.anaconda.com/) for easier environment and package management.
+- Basic knowledge of working with Python virtual environments.
 
 ### Installation
-(To be completed: Provide steps to clone and set up the repository for analysis.)
+Follow these steps to set up the repository for analysis:
+
+1. **Clone the Repository**:
+   Open a terminal and run:
+   ```bash
+   git clone https://github.com/rdgbrian/heart-data-analysis.git
+   cd heart-data-analysis
+   ```
+
+2. **Create a Python Environment**:
+   If you are using Anaconda, create and activate a virtual environment:
+   ```bash
+   conda create --name <env_name> python=3.9
+   conda activate <env_name>
+   ```
+
+   Alternatively, using `venv`:
+   ```bash
+   python -m venv <env_name>
+   source <env_name>/bin/activate   # On MacOS/Linux
+   <env_name>\Scripts\activate      # On Windows
+   ```
+
+3. **Install Dependencies**:
+   Use the `requirements.txt` file to install the necessary packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Verify the Setup**:
+   To ensure all dependencies are installed correctly, you can test the installation by running:
+   ```bash
+   python -m pip check
+   ```
+
+Now you’re ready to begin analysis with the repository!
 
 ### Running the Analysis
 (To be completed: Instructions on executing the data preprocessing, analysis scripts, and models.)
